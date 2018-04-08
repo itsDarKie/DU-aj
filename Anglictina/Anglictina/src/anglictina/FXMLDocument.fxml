@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="724.0" prefWidth="994.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="anglictina.FXMLDocumentController">
+   <children>
+      <ImageView fx:id="i1" fitHeight="175.0" fitWidth="148.0" layoutX="107.0" layoutY="137.0" onMouseClicked="#vyhodnot" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../zdroje/1.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="i2" fitHeight="175.0" fitWidth="148.0" layoutX="423.0" layoutY="137.0" onMouseClicked="#vyhodnot" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../zdroje/2.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="i3" fitHeight="175.0" fitWidth="148.0" layoutX="751.0" layoutY="129.0" onMouseClicked="#vyhodnot" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../zdroje/3.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="i4" fitHeight="175.0" fitWidth="148.0" layoutX="107.0" layoutY="375.0" onMouseClicked="#vyhodnot" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../zdroje/4.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="i5" fitHeight="175.0" fitWidth="148.0" layoutX="426.0" layoutY="375.0" onMouseClicked="#vyhodnot" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../zdroje/5.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="i6" fitHeight="175.0" fitWidth="148.0" layoutX="751.0" layoutY="378.0" onMouseClicked="#vyhodnot" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../zdroje/6.jpg" />
+         </image></ImageView>
+      <Label fx:id="slovo" layoutX="447.0" layoutY="21.0" text="Slovo" visible="false">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <Label fx:id="score" layoutX="210.0" layoutY="680.0" text="" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="hadej" layoutX="394.0" layoutY="600.0" mnemonicParsing="false" onAction="#hadej" prefHeight="50.0" prefWidth="200.0" text="Hádej">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label fx:id="l1" layoutX="107.0" layoutY="137.0" onMouseClicked="#vyhodnot" prefHeight="175.0" prefWidth="148.0" visible="false">
+         <tooltip>
+            <Tooltip fx:id="t0" text="tooltip" />
+         </tooltip>
+      </Label>
+      <Label fx:id="l2" layoutX="420.0" layoutY="137.0" onMouseClicked="#vyhodnot" prefHeight="175.0" prefWidth="148.0" visible="false">
+         <tooltip>
+            <Tooltip fx:id="t1" text="tooltip" />
+         </tooltip>
+      </Label>
+      <Label fx:id="l3" layoutX="751.0" layoutY="129.0" onMouseClicked="#vyhodnot" prefHeight="175.0" prefWidth="148.0" visible="false">
+         <tooltip>
+            <Tooltip fx:id="t2" text="tooltip" />
+         </tooltip>
+      </Label>
+      <Label fx:id="l4" layoutX="107.0" layoutY="375.0" onMouseClicked="#vyhodnot" prefHeight="175.0" prefWidth="148.0" visible="false">
+         <tooltip>
+            <Tooltip fx:id="t3" text="tooltip" />
+         </tooltip>
+      </Label>
+      <Label fx:id="l5" layoutX="420.0" layoutY="371.0" onMouseClicked="#vyhodnot" prefHeight="175.0" prefWidth="148.0" visible="false">
+         <tooltip>
+            <Tooltip fx:id="t4" text="tooltip" />
+         </tooltip>
+      </Label>
+      <Label fx:id="l6" layoutX="748.0" layoutY="375.0" onMouseClicked="#vyhodnot" prefHeight="175.0" prefWidth="148.0" visible="false">
+         <tooltip>
+            <Tooltip fx:id="t5" text="tooltip" />
+         </tooltip>
+      </Label>
+   </children>
+</AnchorPane>
